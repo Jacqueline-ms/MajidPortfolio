@@ -11,13 +11,14 @@
 
 ## 🛠 Installation and Setup Instructions
 
-1. Installation: `npm install`
+1. Clone repo 
+2. At the portfolio level of the directory, run `npm start`
+3. This command should open up [http://localhost:3000](http://localhost:3000) where you can view it in the browser. This runs your app in the development mode.
+3. All editing can take place in the editing folder. The page will reload if you make edits.
+4. Have fun!
 
-2. In the project directory, you can run: `npm start`
+ <img width="340" alt="image" src="https://user-images.githubusercontent.com/30805892/148159423-fb0a107e-c9fd-424f-b2c3-e95a01fa2a68.png">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-The page will reload if you make edits.
 
 ## Usage Instructions
 
