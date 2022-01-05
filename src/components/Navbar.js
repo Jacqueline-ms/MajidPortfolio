@@ -3,6 +3,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import logo from "../Assets/logo.png";
+import MRA from '../Assets/MRA.png';
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
@@ -39,8 +40,8 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/">
-          {/* <img src={logo} className="img-fluid logo" alt="brand" /> */}
-          Majid
+          <img src={MRA} className="img-fluid logo" alt="brand" />
+          
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -93,7 +94,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
+            {/* <Nav.Item>
               <Nav.Link
                 href="https://blogs.soumyajit.tech/"
                 target="_blank"
@@ -101,7 +102,7 @@ function NavBar() {
               >
                 <ImBlog style={{ marginBottom: "2px" }} /> Blogs
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
 
             <Nav.Item className="fork-btn">
               <Button
