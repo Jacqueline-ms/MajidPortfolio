@@ -39,7 +39,8 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/">
-          <img src={logo} className="img-fluid logo" alt="brand" />
+          {/* <img src={logo} className="img-fluid logo" alt="brand" /> */}
+          Majid
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
